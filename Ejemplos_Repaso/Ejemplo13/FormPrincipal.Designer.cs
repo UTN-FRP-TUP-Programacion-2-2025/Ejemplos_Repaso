@@ -48,21 +48,21 @@ partial class FormPrincipal
         lsbVerCola.Location = new Point(11, 192);
         lsbVerCola.Margin = new Padding(4);
         lsbVerCola.Name = "lsbVerCola";
-        lsbVerCola.Size = new Size(239, 298);
+        lsbVerCola.Size = new Size(196, 298);
         lsbVerCola.TabIndex = 26;
         // 
         // listBox2
         // 
         listBox2.FormattingEnabled = true;
-        listBox2.Location = new Point(393, 192);
+        listBox2.Location = new Point(350, 191);
         listBox2.Margin = new Padding(4);
         listBox2.Name = "listBox2";
-        listBox2.Size = new Size(239, 298);
+        listBox2.Size = new Size(196, 298);
         listBox2.TabIndex = 25;
         // 
         // btnVerUltimo
         // 
-        btnVerUltimo.Location = new Point(259, 207);
+        btnVerUltimo.Location = new Point(216, 207);
         btnVerUltimo.Margin = new Padding(5, 7, 5, 7);
         btnVerUltimo.Name = "btnVerUltimo";
         btnVerUltimo.Size = new Size(125, 78);
@@ -92,7 +92,7 @@ partial class FormPrincipal
         groupBox1.Margin = new Padding(4);
         groupBox1.Name = "groupBox1";
         groupBox1.Padding = new Padding(4);
-        groupBox1.Size = new Size(499, 124);
+        groupBox1.Size = new Size(533, 124);
         groupBox1.TabIndex = 24;
         groupBox1.TabStop = false;
         groupBox1.Text = "Datos";
@@ -146,7 +146,7 @@ partial class FormPrincipal
         // 
         // btnExtraer
         // 
-        btnExtraer.Location = new Point(259, 299);
+        btnExtraer.Location = new Point(216, 299);
         btnExtraer.Margin = new Padding(5, 7, 5, 7);
         btnExtraer.Name = "btnExtraer";
         btnExtraer.Size = new Size(125, 78);
@@ -159,7 +159,7 @@ partial class FormPrincipal
         // 
         AutoScaleDimensions = new SizeF(9F, 21F);
         AutoScaleMode = AutoScaleMode.Font;
-        ClientSize = new Size(638, 496);
+        ClientSize = new Size(555, 496);
         Controls.Add(lsbVerCola);
         Controls.Add(listBox2);
         Controls.Add(btnVerUltimo);

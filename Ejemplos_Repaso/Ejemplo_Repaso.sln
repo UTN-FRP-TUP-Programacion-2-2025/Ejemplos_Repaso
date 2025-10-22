@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo12_EstructuraDatos_s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo13_EstructuraDatos_queue", "Ejemplo13\Ejemplo13_EstructuraDatos_queue.csproj", "{11CE60F0-830C-2509-6E51-5D9842CE62F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo14_EstructuraDatos_linkedList", "Ejemplo14_EstructuraDatos_linkedList\Ejemplo14_EstructuraDatos_linkedList.csproj", "{9AF16413-35C6-465B-84E7-83D3EA038041}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,10 @@ Global
 		{11CE60F0-830C-2509-6E51-5D9842CE62F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11CE60F0-830C-2509-6E51-5D9842CE62F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11CE60F0-830C-2509-6E51-5D9842CE62F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AF16413-35C6-465B-84E7-83D3EA038041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF16413-35C6-465B-84E7-83D3EA038041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF16413-35C6-465B-84E7-83D3EA038041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF16413-35C6-465B-84E7-83D3EA038041}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +115,7 @@ Global
 		{2090C816-C3C4-48BC-8E11-E656C8416E5E} = {DF733B5C-F6B3-4C35-95AE-18F2B2D08F8E}
 		{DFB64CB4-D9AB-4163-A150-1FF97DDE6159} = {DF733B5C-F6B3-4C35-95AE-18F2B2D08F8E}
 		{11CE60F0-830C-2509-6E51-5D9842CE62F0} = {DF733B5C-F6B3-4C35-95AE-18F2B2D08F8E}
+		{9AF16413-35C6-465B-84E7-83D3EA038041} = {DF733B5C-F6B3-4C35-95AE-18F2B2D08F8E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {369D7E77-1B52-4803-B20A-8C71752FFC28}

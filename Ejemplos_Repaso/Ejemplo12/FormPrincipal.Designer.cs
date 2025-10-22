@@ -44,7 +44,7 @@ partial class FormPrincipal
         // 
         // btnExtraer
         // 
-        btnExtraer.Location = new Point(261, 301);
+        btnExtraer.Location = new Point(218, 301);
         btnExtraer.Margin = new Padding(5, 7, 5, 7);
         btnExtraer.Name = "btnExtraer";
         btnExtraer.Size = new Size(125, 78);
@@ -55,7 +55,7 @@ partial class FormPrincipal
         // 
         // btnPoner
         // 
-        btnPoner.Location = new Point(360, 33);
+        btnPoner.Location = new Point(375, 33);
         btnPoner.Margin = new Padding(5, 7, 5, 7);
         btnPoner.Name = "btnPoner";
         btnPoner.Size = new Size(125, 78);
@@ -75,7 +75,7 @@ partial class FormPrincipal
         groupBox1.Margin = new Padding(4);
         groupBox1.Name = "groupBox1";
         groupBox1.Padding = new Padding(4);
-        groupBox1.Size = new Size(499, 124);
+        groupBox1.Size = new Size(533, 124);
         groupBox1.TabIndex = 17;
         groupBox1.TabStop = false;
         groupBox1.Text = "Datos";
@@ -128,7 +128,7 @@ partial class FormPrincipal
         // 
         // btnVerUltimo
         // 
-        btnVerUltimo.Location = new Point(261, 209);
+        btnVerUltimo.Location = new Point(218, 209);
         btnVerUltimo.Margin = new Padding(5, 7, 5, 7);
         btnVerUltimo.Name = "btnVerUltimo";
         btnVerUltimo.Size = new Size(125, 78);
@@ -140,10 +140,10 @@ partial class FormPrincipal
         // listBox2
         // 
         listBox2.FormattingEnabled = true;
-        listBox2.Location = new Point(395, 194);
+        listBox2.Location = new Point(352, 190);
         listBox2.Margin = new Padding(4);
         listBox2.Name = "listBox2";
-        listBox2.Size = new Size(239, 298);
+        listBox2.Size = new Size(196, 298);
         listBox2.TabIndex = 19;
         // 
         // lsbVerPila
@@ -152,14 +152,14 @@ partial class FormPrincipal
         lsbVerPila.Location = new Point(13, 194);
         lsbVerPila.Margin = new Padding(4);
         lsbVerPila.Name = "lsbVerPila";
-        lsbVerPila.Size = new Size(239, 298);
+        lsbVerPila.Size = new Size(196, 298);
         lsbVerPila.TabIndex = 20;
         // 
         // FormPrincipal
         // 
         AutoScaleDimensions = new SizeF(9F, 21F);
         AutoScaleMode = AutoScaleMode.Font;
-        ClientSize = new Size(641, 501);
+        ClientSize = new Size(555, 501);
         Controls.Add(lsbVerPila);
         Controls.Add(listBox2);
         Controls.Add(btnVerUltimo);

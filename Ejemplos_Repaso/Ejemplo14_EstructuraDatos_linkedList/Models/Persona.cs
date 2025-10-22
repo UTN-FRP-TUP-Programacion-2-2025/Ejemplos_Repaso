@@ -1,4 +1,4 @@
-﻿namespace Ejemplo12.Models;
+﻿namespace Ejemplo14.Models;
 
 public class Persona 
 {

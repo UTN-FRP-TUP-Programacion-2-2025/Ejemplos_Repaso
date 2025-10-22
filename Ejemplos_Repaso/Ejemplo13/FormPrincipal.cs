@@ -4,7 +4,6 @@ namespace Ejercicio13;
 
 public partial class FormPrincipal : Form
 {
-
     Queue<Persona> personas = new Queue<Persona>();
 
     public FormPrincipal()
@@ -22,7 +21,7 @@ public partial class FormPrincipal : Form
         personas.Enqueue(new Persona(42374634, "Fabian"));
         personas.Enqueue(new Persona(42349674, "Gaston"));
         personas.Enqueue(new Persona(22385671, "Manuel"));
-        personas.Enqueue(new Persona(33745992, "Julia"));        
+        personas.Enqueue(new Persona(33745992, "Julia"));
         personas.Enqueue(new Persona(21745692, "Vanesa"));
         personas.Enqueue(new Persona(45545680, "Zamanta"));
 
@@ -56,7 +55,6 @@ public partial class FormPrincipal : Form
         tbDNI.Clear();
         tbNombre.Clear();
     }
-   
 
     private void btnVerUltimo_Click(object sender, EventArgs e)
     {
@@ -72,7 +70,8 @@ public partial class FormPrincipal : Form
             MessageBox.Show("La pila está vacía");
         }
     }
-        protected void VerContenidoCola()
+
+    protected void VerContenidoCola()
     {
         lsbVerCola.Items.Clear();
         foreach (Persona persona in personas)

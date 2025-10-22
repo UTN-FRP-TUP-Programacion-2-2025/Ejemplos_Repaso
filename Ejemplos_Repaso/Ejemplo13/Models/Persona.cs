@@ -1,6 +1,6 @@
 ﻿namespace Ejemplo13.Models;
 
-[Serializable]
+
 public class Persona 
 {
     public int DNI { get; set; }
