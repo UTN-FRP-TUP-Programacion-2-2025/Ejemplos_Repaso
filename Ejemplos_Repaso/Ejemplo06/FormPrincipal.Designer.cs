@@ -38,19 +38,19 @@ partial class FormPrincipal
         // tbDescripcion
         // 
         tbDescripcion.Font = new Font("Courier New", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-        tbDescripcion.Location = new Point(2, 2);
+        tbDescripcion.Location = new Point(12, 79);
         tbDescripcion.Multiline = true;
         tbDescripcion.Name = "tbDescripcion";
         tbDescripcion.ScrollBars = ScrollBars.Both;
-        tbDescripcion.Size = new Size(405, 414);
+        tbDescripcion.Size = new Size(216, 182);
         tbDescripcion.TabIndex = 14;
         // 
         // btnTestCasoNormal
         // 
-        btnTestCasoNormal.Location = new Point(411, 189);
+        btnTestCasoNormal.Location = new Point(12, 5);
         btnTestCasoNormal.Margin = new Padding(4, 5, 4, 5);
         btnTestCasoNormal.Name = "btnTestCasoNormal";
-        btnTestCasoNormal.Size = new Size(112, 66);
+        btnTestCasoNormal.Size = new Size(62, 66);
         btnTestCasoNormal.TabIndex = 13;
         btnTestCasoNormal.Text = "Test Caso Normal";
         btnTestCasoNormal.UseVisualStyleBackColor = true;
@@ -58,10 +58,10 @@ partial class FormPrincipal
         // 
         // btnTestCaso1
         // 
-        btnTestCaso1.Location = new Point(411, 265);
+        btnTestCaso1.Location = new Point(82, 5);
         btnTestCaso1.Margin = new Padding(4, 5, 4, 5);
         btnTestCaso1.Name = "btnTestCaso1";
-        btnTestCaso1.Size = new Size(112, 66);
+        btnTestCaso1.Size = new Size(61, 66);
         btnTestCaso1.TabIndex = 15;
         btnTestCaso1.Text = "Test Caso 1";
         btnTestCaso1.UseVisualStyleBackColor = true;
@@ -69,10 +69,10 @@ partial class FormPrincipal
         // 
         // btnTestCaso2
         // 
-        btnTestCaso2.Location = new Point(411, 341);
+        btnTestCaso2.Location = new Point(151, 5);
         btnTestCaso2.Margin = new Padding(4, 5, 4, 5);
         btnTestCaso2.Name = "btnTestCaso2";
-        btnTestCaso2.Size = new Size(112, 66);
+        btnTestCaso2.Size = new Size(62, 66);
         btnTestCaso2.TabIndex = 16;
         btnTestCaso2.Text = "Test Caso 2";
         btnTestCaso2.UseVisualStyleBackColor = true;
@@ -80,10 +80,10 @@ partial class FormPrincipal
         // 
         // btnActualizar
         // 
-        btnActualizar.Location = new Point(414, 2);
+        btnActualizar.Location = new Point(235, 79);
         btnActualizar.Margin = new Padding(4, 5, 4, 5);
         btnActualizar.Name = "btnActualizar";
-        btnActualizar.Size = new Size(112, 66);
+        btnActualizar.Size = new Size(74, 66);
         btnActualizar.TabIndex = 17;
         btnActualizar.Text = "Actualizar";
         btnActualizar.UseVisualStyleBackColor = true;
@@ -93,7 +93,7 @@ partial class FormPrincipal
         // 
         AutoScaleDimensions = new SizeF(7F, 17F);
         AutoScaleMode = AutoScaleMode.Font;
-        ClientSize = new Size(536, 421);
+        ClientSize = new Size(311, 267);
         Controls.Add(btnActualizar);
         Controls.Add(btnTestCaso2);
         Controls.Add(btnTestCaso1);
@@ -103,7 +103,7 @@ partial class FormPrincipal
         FormBorderStyle = FormBorderStyle.FixedSingle;
         Name = "FormPrincipal";
         StartPosition = FormStartPosition.CenterScreen;
-        Text = "Form1";
+        Text = "Ejemplo 6. Excepciones";
         Load += FormPrincipal_Load;
         ResumeLayout(false);
         PerformLayout();

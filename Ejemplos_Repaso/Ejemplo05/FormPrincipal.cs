@@ -18,6 +18,9 @@ public partial class FormPrincipal : Form
         {
             "2323-800427",
             "343-800327",
+            "242-404325",
+            "2322-200347",
+
         };
 
         foreach (string telefono in telefonos)
@@ -35,7 +38,9 @@ public partial class FormPrincipal : Form
         //dado un texto
         string input = @"
 2323-800427
-343-800327";
+343-800327
+242-404325
+2322-200347";
 
         tbDescripcion.Clear();
         Match match=Regex.Match(input, @"(\d{3,4})-(\d{6,8})", RegexOptions.IgnoreCase);

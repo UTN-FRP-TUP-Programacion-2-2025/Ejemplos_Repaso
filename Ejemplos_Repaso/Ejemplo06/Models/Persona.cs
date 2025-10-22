@@ -1,4 +1,5 @@
 ﻿using Ejemplo06.Models;
+using Ejemplo06.Models.Exceptions;
 
 namespace Ejemplo06.Models;
 

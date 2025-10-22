@@ -36,47 +36,50 @@
             // tbDescripcion
             // 
             tbDescripcion.Font = new Font("Courier New", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            tbDescripcion.Location = new Point(4, 12);
+            tbDescripcion.Location = new Point(5, 15);
+            tbDescripcion.Margin = new Padding(4);
             tbDescripcion.Multiline = true;
             tbDescripcion.Name = "tbDescripcion";
             tbDescripcion.ScrollBars = ScrollBars.Both;
-            tbDescripcion.Size = new Size(405, 414);
+            tbDescripcion.Size = new Size(323, 154);
             tbDescripcion.TabIndex = 11;
             // 
             // btnProcesarLista
             // 
-            btnProcesarLista.Location = new Point(416, 52);
-            btnProcesarLista.Margin = new Padding(4, 5, 4, 5);
+            btnProcesarLista.Location = new Point(337, 15);
+            btnProcesarLista.Margin = new Padding(5, 6, 5, 6);
             btnProcesarLista.Name = "btnProcesarLista";
-            btnProcesarLista.Size = new Size(112, 66);
+            btnProcesarLista.Size = new Size(98, 67);
             btnProcesarLista.TabIndex = 10;
-            btnProcesarLista.Text = "Procesar Lista";
+            btnProcesarLista.Text = "Procesar Lista (1)";
             btnProcesarLista.UseVisualStyleBackColor = true;
             btnProcesarLista.Click += btnProcesarLista_Click;
             // 
             // btnProcesarTexto
             // 
-            btnProcesarTexto.Location = new Point(416, 128);
-            btnProcesarTexto.Margin = new Padding(4, 5, 4, 5);
+            btnProcesarTexto.Location = new Point(336, 94);
+            btnProcesarTexto.Margin = new Padding(5, 6, 5, 6);
             btnProcesarTexto.Name = "btnProcesarTexto";
-            btnProcesarTexto.Size = new Size(112, 66);
+            btnProcesarTexto.Size = new Size(98, 67);
             btnProcesarTexto.TabIndex = 12;
-            btnProcesarTexto.Text = "Procesar Texto";
+            btnProcesarTexto.Text = "Procesar Texto (2)";
             btnProcesarTexto.UseVisualStyleBackColor = true;
             btnProcesarTexto.Click += btnProcesarTexto_Click;
             // 
             // FormPrincipal
             // 
-            AutoScaleDimensions = new SizeF(7F, 17F);
+            AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(541, 438);
+            ClientSize = new Size(439, 177);
             Controls.Add(btnProcesarTexto);
             Controls.Add(tbDescripcion);
             Controls.Add(btnProcesarLista);
-            Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Margin = new Padding(4);
             Name = "FormPrincipal";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form1";
+            Text = "Ejemplo 5. Cadena de caracteres";
             ResumeLayout(false);
             PerformLayout();
         }

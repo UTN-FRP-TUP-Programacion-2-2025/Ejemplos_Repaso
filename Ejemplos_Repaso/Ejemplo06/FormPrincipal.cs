@@ -17,12 +17,13 @@ public partial class FormPrincipal : Form
         //inicializar pantalla y controles con valores
         personas = new List<Persona>
         {
-            new Persona( 23222334, "Ana"),
-            new Persona( 33252334, "Martín"),
+            new Persona( 23222331, "Ana"),
+            new Persona( 33252333, "Martín"),
             new Persona( 45426334, "Federico"),
+            new Persona( 45426333, "Micaela"),
+            new Persona( 46426100, "Agustín"),
         };
     }
-
     private void btnTestCasoNormal_Click(object sender, EventArgs e)
     {
         //manejo de excepciones
@@ -83,6 +84,4 @@ public partial class FormPrincipal : Form
             tbDescripcion.Text += persona.ToString() + Environment.NewLine;
         }
     }
-
-   
 }
