@@ -167,8 +167,10 @@ partial class FormPrincipal
         Controls.Add(groupBox1);
         Controls.Add(btnExtraer);
         Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+        FormBorderStyle = FormBorderStyle.FixedSingle;
         Margin = new Padding(4);
         Name = "FormPrincipal";
+        StartPosition = FormStartPosition.CenterScreen;
         Text = "Ejemplo 13. Cola";
         Load += FormPrincipal_Load;
         groupBox1.ResumeLayout(false);
