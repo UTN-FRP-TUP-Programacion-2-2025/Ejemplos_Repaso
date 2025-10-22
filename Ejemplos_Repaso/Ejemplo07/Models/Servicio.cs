@@ -10,7 +10,7 @@ public class Servicio
     public void AgregarPersona(Persona nueva)
     {
         Persona persona = BuscarPersona(nueva.DNI);
-        if (persona != null) throw new PersonaNoAgregadaException("La persona ya existe");
+        if (persona != null) throw new PersonaExistenteException("La persona ya existe");
         personas.Add(nueva);
     }
 
