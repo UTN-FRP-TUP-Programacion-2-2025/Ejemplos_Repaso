@@ -1,45 +1,28 @@
 ﻿namespace Ejemplo11.Models;
 
 [Serializable]
-public class Persona : IComparable
+public class Persona 
 {
-    private int dni;
-    public int DNI
-    {
-        get
-        {
-            return dni;
-        }
-        set
-        {
-            dni = value;
-        }
-    }
+    public int DNI { get; set; }
 
     public string Nombre { get; set; }
 
-    public Persona(int dni)
-    {
-        this.dni = dni;
+    public Persona()
+    { 
     }
 
-    public Persona(int dni, string nombre)
+    public Persona(int dni)
     {
-        this.dni = dni;
+        this.DNI = dni;
+    }
+
+    public Persona(int dni, string nombre):this(dni)
+    {
         this.Nombre = nombre;
     }
 
-   
-
-    public int CompareTo(object otherObject)
+    override public string ToString()
     {
-        Persona other= otherObject as Persona;
-        if(other!=null) return this.DNI.CompareTo(other.DNI);
-        return -1;
-    }
-
-    public override string ToString()
-    {
-        return $"{Nombre} ({dni})";
+        return $"{Nombre}({DNI})";
     }
 }

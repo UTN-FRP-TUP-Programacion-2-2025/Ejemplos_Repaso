@@ -29,7 +29,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo10_ArchivosBinarios"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo11_ArchivosBinarios_Servicio", "Ejemplo11\Ejemplo11_ArchivosBinarios_Servicio.csproj", "{2090C816-C3C4-48BC-8E11-E656C8416E5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo12_EstructuraDatos", "Ejemplo12\Ejemplo12_EstructuraDatos.csproj", "{DFB64CB4-D9AB-4163-A150-1FF97DDE6159}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo12_EstructuraDatos_stack", "Ejemplo12\Ejemplo12_EstructuraDatos_stack.csproj", "{DFB64CB4-D9AB-4163-A150-1FF97DDE6159}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo13_EstructuraDatos", "Ejemplo13\Ejemplo13_EstructuraDatos.csproj", "{11CE60F0-830C-2509-6E51-5D9842CE62F0}"
 EndProject
