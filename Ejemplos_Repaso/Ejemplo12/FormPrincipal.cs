@@ -1,4 +1,4 @@
-using Ejemplo11.Models;
+using Ejemplo12.Models;
 
 namespace Ejercicio12;
 
@@ -22,13 +22,15 @@ public partial class FormPrincipal : Form
         personas.Push(new Persona(22355668, "Ester"));
         personas.Push(new Persona(42374634, "Fabian"));
         personas.Push(new Persona(42349674, "Gaston"));
-        personas.Push(new Persona(22385671, "Ignacio"));
-        personas.Push(new Persona(42745682, "Julia"));
+        personas.Push(new Persona(22385671, "Manuel"));
+        personas.Push(new Persona(33745992, "Julia"));
+        personas.Push(new Persona(21745692, "Vanesa"));
+        personas.Push(new Persona(45545680, "Zamanta"));
 
         VerContenidoPila();
     }
 
-    private void btnProcesarLista_Click(object sender, EventArgs e)
+    private void btnPoner_Click(object sender, EventArgs e)
     {
         int dni = Convert.ToInt32(tbDNI.Text);
         string nombre = tbNombre.Text;
@@ -79,9 +81,5 @@ public partial class FormPrincipal : Form
         {
             lsbVerPila.Items.Add(persona);
         }
-
-
     }
-
-    
 }

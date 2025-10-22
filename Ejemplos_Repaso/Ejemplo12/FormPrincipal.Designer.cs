@@ -29,7 +29,7 @@ partial class FormPrincipal
     private void InitializeComponent()
     {
         btnExtraer = new Button();
-        btnProcesarLista = new Button();
+        btnPoner = new Button();
         groupBox1 = new GroupBox();
         label2 = new Label();
         label1 = new Label();
@@ -49,20 +49,20 @@ partial class FormPrincipal
         btnExtraer.Name = "btnExtraer";
         btnExtraer.Size = new Size(125, 78);
         btnExtraer.TabIndex = 15;
-        btnExtraer.Text = "Extraer de la Pila (Pop) >>";
+        btnExtraer.Text = "Desempilar (Pop) >>";
         btnExtraer.UseVisualStyleBackColor = true;
         btnExtraer.Click += btnExtraer_Click;
         // 
-        // btnProcesarLista
+        // btnPoner
         // 
-        btnProcesarLista.Location = new Point(312, 33);
-        btnProcesarLista.Margin = new Padding(5, 7, 5, 7);
-        btnProcesarLista.Name = "btnProcesarLista";
-        btnProcesarLista.Size = new Size(125, 78);
-        btnProcesarLista.TabIndex = 13;
-        btnProcesarLista.Text = "Insertar en la pila (Push)";
-        btnProcesarLista.UseVisualStyleBackColor = true;
-        btnProcesarLista.Click += btnProcesarLista_Click;
+        btnPoner.Location = new Point(360, 33);
+        btnPoner.Margin = new Padding(5, 7, 5, 7);
+        btnPoner.Name = "btnPoner";
+        btnPoner.Size = new Size(125, 78);
+        btnPoner.TabIndex = 13;
+        btnPoner.Text = "Empilar (Push)";
+        btnPoner.UseVisualStyleBackColor = true;
+        btnPoner.Click += btnPoner_Click;
         // 
         // groupBox1
         // 
@@ -70,12 +70,12 @@ partial class FormPrincipal
         groupBox1.Controls.Add(label1);
         groupBox1.Controls.Add(tbNombre);
         groupBox1.Controls.Add(tbDNI);
-        groupBox1.Controls.Add(btnProcesarLista);
+        groupBox1.Controls.Add(btnPoner);
         groupBox1.Location = new Point(15, 15);
         groupBox1.Margin = new Padding(4);
         groupBox1.Name = "groupBox1";
         groupBox1.Padding = new Padding(4);
-        groupBox1.Size = new Size(460, 124);
+        groupBox1.Size = new Size(499, 124);
         groupBox1.TabIndex = 17;
         groupBox1.TabStop = false;
         groupBox1.Text = "Datos";
@@ -122,9 +122,9 @@ partial class FormPrincipal
         label3.Location = new Point(15, 168);
         label3.Margin = new Padding(4, 0, 4, 0);
         label3.Name = "label3";
-        label3.Size = new Size(148, 21);
+        label3.Size = new Size(384, 21);
         label3.TabIndex = 4;
-        label3.Text = "Contenido de la Pila";
+        label3.Text = "Contenido de la Pila: Primero en entrar, último en salir";
         // 
         // btnVerUltimo
         // 
@@ -133,7 +133,7 @@ partial class FormPrincipal
         btnVerUltimo.Name = "btnVerUltimo";
         btnVerUltimo.Size = new Size(125, 78);
         btnVerUltimo.TabIndex = 14;
-        btnVerUltimo.Text = "Ver el último de la pila (peek)";
+        btnVerUltimo.Text = "Ver el primero de la pila (peek)";
         btnVerUltimo.UseVisualStyleBackColor = true;
         btnVerUltimo.Click += btnVerUltimo_Click;
         // 
@@ -143,7 +143,7 @@ partial class FormPrincipal
         listBox2.Location = new Point(395, 194);
         listBox2.Margin = new Padding(4);
         listBox2.Name = "listBox2";
-        listBox2.Size = new Size(239, 361);
+        listBox2.Size = new Size(239, 298);
         listBox2.TabIndex = 19;
         // 
         // lsbVerPila
@@ -152,14 +152,14 @@ partial class FormPrincipal
         lsbVerPila.Location = new Point(13, 194);
         lsbVerPila.Margin = new Padding(4);
         lsbVerPila.Name = "lsbVerPila";
-        lsbVerPila.Size = new Size(239, 361);
+        lsbVerPila.Size = new Size(239, 298);
         lsbVerPila.TabIndex = 20;
         // 
         // FormPrincipal
         // 
         AutoScaleDimensions = new SizeF(9F, 21F);
         AutoScaleMode = AutoScaleMode.Font;
-        ClientSize = new Size(641, 568);
+        ClientSize = new Size(641, 501);
         Controls.Add(lsbVerPila);
         Controls.Add(listBox2);
         Controls.Add(btnVerUltimo);
@@ -170,7 +170,7 @@ partial class FormPrincipal
         Margin = new Padding(4);
         Name = "FormPrincipal";
         StartPosition = FormStartPosition.CenterScreen;
-        Text = "Form1";
+        Text = "Ejemplo 12. Pila";
         Load += FormPrincipal_Load;
         groupBox1.ResumeLayout(false);
         groupBox1.PerformLayout();
@@ -181,7 +181,7 @@ partial class FormPrincipal
     #endregion
 
     private Button btnExtraer;
-    private Button btnProcesarLista;
+    private Button btnPoner;
     private GroupBox groupBox1;
     private Label label2;
     private Label label1;

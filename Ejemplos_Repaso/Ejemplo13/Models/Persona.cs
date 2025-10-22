@@ -1,4 +1,4 @@
-﻿namespace Ejemplo12.Models;
+﻿namespace Ejemplo13.Models;
 
 [Serializable]
 public class Persona 
