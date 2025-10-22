@@ -37,6 +37,9 @@ public partial class FormPrincipal : Form
         personas.Push(nueva);
 
         VerContenidoPila();
+
+        tbDNI.Clear();
+        tbNombre.Clear();
     }
 
     private void btnExtraer_Click(object sender, EventArgs e)
